@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+     <!--   <artifactId>multimodule-framework-lastlysly</artifactId>
+        <groupId>com.lastlysly</groupId>
+        <version>1.0.0</version>-->
+        <groupId>com.lastlysly</groupId>
+        <artifactId>multimodule-framework-lastlysly</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lastlysly-common</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>lastlysly-common-core</module>
+        <module>lastlysly-common-pay</module>
+        <module>lastlysly-common-log</module>
+        <module>lastlysly-common-mq</module>
+        <module>lastlysly-common-redis</module>
+        <module>lastlysly-common-web</module>
+        <module>lastlysly-common-oss</module>
+        <module>lastlysly-common-http</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+
+
+
+</project>
